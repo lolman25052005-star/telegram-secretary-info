@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Telegram Secretary</title>
+<style>body{font:18px/1.65 system-ui,sans-serif;max-width:760px;margin:72px auto;padding:0 24px;color:#15202b;background:#fafafa}h1,h2{line-height:1.2}a{color:#1759bc}</style>
+<p><a href="index.html">Telegram Secretary</a></p><h1>Privacy policy</h1><p>Updated 13 September 2026. This notice describes the personal Google integration being configured for Telegram Secretary.</p>
+<h2>Data and purpose</h2>
+<p>With the owner's explicit Google authorization, the assistant reads the Gmail account identity, labels, incoming-message identifiers, sender, subject and date. It retrieves plain-text message content when the owner opens a selected message. It uses this access only to provide private email views and notifications requested by the owner.</p>
+<p>The assistant reads events from the owner's primary Google Calendar for private schedule views, checks free/busy information for a requested interval, and creates an event only after the owner's explicit confirmation of its details. No email invitations are sent. Contact messages and their voice transcripts may provide the proposed meeting details.</p>
+<h2>Storage and retention</h2>
+<p>The bot runs on the owner's access-restricted server. The mail cache retains at most 100 recent headers. Message identifiers, synchronization positions and delivery states are retained to avoid duplicate notifications. Event proposals, approval records and creation results are retained for review and duplicate prevention until removed by the operator. Email bodies are handled in memory for the selected private view and are not stored in the bot's mail database.</p>
+<p>Google authorization credentials are kept outside source-code repositories in protected storage. Initial Windows enrollment uses operating-system encryption; server credentials are accessible to the bot's limited runtime account. Access tokens are not added to chat messages or routine logs.</p>
+<h2>Disclosure and AI</h2>
+<p>Selected email text, mail notifications and the owner's schedule views are delivered through Telegram only to the configured owner's private bot chat. Telegram processes those delivered messages under its own privacy practices. Contacts receive only a response about potential availability for their proposed time, never the private event details or reason for being busy.</p>
+<p>Google email contents and calendar event details are not sent to OpenAI, xAI or other AI providers. Optional Telegram voice input is transcribed using the bot's separately configured transcription provider; Google mailbox and calendar contents are not part of that request. Google user data is not sold, used for advertising, or used to train generalized AI or machine-learning models.</p>
+<p>Telegram Secretary's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>Owner control</h2>
+<p>The owner can revoke the application's Google access in <a href="https://myaccount.google.com/permissions">Google Account connections</a>. Revocation stops future authorized access; it does not automatically erase existing bot records or previously delivered Telegram messages. To disconnect the integration and remove retained local Google records, the owner can request removal from the operator. Existing Google Calendar events remain in the owner's calendar unless the owner removes them there.</p>
+<p>This information-only website uses no application forms, advertising or analytics scripts. Its hosting provider may process standard request and security logs.</p>
+<p>Questions and removal requests: contact the operator through the existing private conversation with <a href="https://t.me/Secretar_private_bot">Telegram Secretary</a>.</p>
+</html>
